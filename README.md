@@ -37,3 +37,13 @@ To run this project, you need to have Python installed. We recommend using a vir
 1. **Download trained model**:
     [Click here to download resnet_captcha_model.pth](https://github.com/your-username/your-repo-name/raw/main/resnet_captcha_model.pth)
 
+
+## Training/Inference code and Performance visualisation
+
+    Refer the notebook for the code annd visualisation : 
+
+## About the Model
+
+
+## Perfomance Metrics
+

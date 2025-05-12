@@ -6,7 +6,9 @@ Includes a ResNet implmentation for captcha identification.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset Information](#dataset-information)
-- [About the Model](#acknowledgements)
+- [Training/Inference code and Performance visualisation](#training-/-inference-code-and-performance-visualisation)
+- [About the Model](#about-the-model)
+- [Performance Metrices](#performance-metrices)
 
 
 ## Installation
@@ -38,13 +40,15 @@ To run this project, you need to have Python installed. We recommend using a vir
     [Click here to download resnet_captcha_model.pth](https://github.com/your-username/your-repo-name/raw/main/resnet_captcha_model.pth)
 
 
+## Dataset Information
+
 ## Training/Inference code and Performance visualisation
 
-Refer the notebook for the code annd visualisation :
+Refer the notebook for the code and visualisation :
     
 
 ## About the Model
 
 
-## Perfomance Metrics
+## Performance Metrics
 

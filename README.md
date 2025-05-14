@@ -1,5 +1,5 @@
 # ResNet-For-Captcha-Identification
-Includes a ResNet implmentation for captcha identification.
+Includes a ResNet50 implmentation for captcha recognition.
 
 ## Table of Contents
 

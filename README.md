@@ -44,7 +44,7 @@ To run this project, you need to have Python installed. We recommend using a vir
 
 ## Training/Inference code and Performance visualisation
 
-Refer the notebook for the code and visualisation :
+Refer the notebook for the code and visualisation : [ResNet.ipynb](ResNet.ipynb)
     
 
 ## About the Model

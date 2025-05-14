@@ -6,9 +6,9 @@ Includes a ResNet50 implmentation for captcha recognition.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset Information](#dataset-information)
-- [Training/Inference code and Performance visualisation](#training-/-inference-code-and-performance-visualisation)
+- [Training/Inference code and Performance visualisation](#traininginference-code-and-performance-visualisation)
 - [About the Model](#about-the-model)
-- [Performance Metrices](#performance-metrices)
+- [Performance Metrices](#performance-metrics)
 
 
 ## Installation

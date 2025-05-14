@@ -57,5 +57,5 @@ Refer the notebook for the code and visualisation : [ResNet.ipynb](ResNet.ipynb)
 
 
 ## Performance Metrics
-Training : CrossEntropyLoss as loss function
-Testing  : Classification accuracy as evaluation metric
+- Training : CrossEntropyLoss as loss function
+- Testing  : Classification accuracy as evaluation metric

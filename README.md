@@ -43,10 +43,10 @@ To run this project, you need to have Python installed. We recommend using a vir
 ## Dataset Information
 The model used in this project is trained on 'Captcha Image Dataset' found in Kaggle.The dataset contains 10,001 images, with each file labelled after the captcha string. The data is split as 'train' and 'test' in the source. However, we had all the images commbined and stored in the same folder from which it was then split into training and testing.
 
-Source : [CAPTCHA Image Dataset](https://www.kaggle.com/datasets/johnbergmann/captcha-image-dataset/data)
-Task : Captcha Identification (Identify the captcha and output the string displayed in it)
-Data : 10,0001 captcha images wich are 6 characters long and have dimensions 250x50.
-Labels : The image fiiles are named after the captcha string.
+- **Source** : [CAPTCHA Image Dataset](https://www.kaggle.com/datasets/johnbergmann/captcha-image-dataset/data)
+- **Task** : Captcha Identification (Identify the captcha and output the string displayed in it)
+- **Data** : 10,0001 captcha images wich are 6 characters long and have dimensions 250x50.
+- **Labels** : The image fiiles are named after the captcha string.
 
 ## Training/Inference code and Performance visualisation
 

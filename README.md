@@ -64,6 +64,8 @@ Refer the notebook for the code and visualisation : [ResNet.ipynb](ResNet.ipynb)
 ## About the Model
 The project implements a ResNet50 deep learning model for CAPTCHA recognition. The model is designed to detect fixed-length (6 characters long) alphanumeric sequences from grayscale images. A custom ResNet architecture is used that uses bottleneck residual blocks to extract features. It predicts a seperate classification for each character in the sequence. The final layer is composed of multiple parallel classifiers, each working for classifying one character, predicting among 36 posssible classes (a-z, 0-9). The model is trained using label-smoothed cross-entropy loss and evaluated based on exact match accuracy, which measures whether the entire CAPTCHA is correctly predicted.
 
+On final testing, the model gave an exact match accuracy of 0.7066 and character-wise accuracy of 0.9418.
+
 <br>
 
 ## Performance Metrics

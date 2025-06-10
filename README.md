@@ -80,7 +80,9 @@ On final testing, the model gave a character-wise accuracy of 0.9415.
 
 The performance was further tested by randomly selecting a captcha image and predicting the sequence.
 
-- **Plotting** : ![Input](images/plot.png)
+- **Plotting** :
+  <br>
+  ![Input](images/plot.png)
 
 <br>
 

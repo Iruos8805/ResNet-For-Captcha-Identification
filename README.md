@@ -64,7 +64,7 @@ To run this project, you need to have Python installed. We recommend using a vir
 The model used in this project is trained on 'Captcha Image Dataset' found in Kaggle.The dataset contains 10,001 images, with each file labelled after the captcha sequence. The data is split as 'train' and 'test' in the source. However, we had all the images combined and stored in the same folder from which it was then split into training and testing.
 
 - **Example** :
-      - ![Input](images/data.png)
+    - ![Input](images/data.png)
 
 - **Source** : [CAPTCHA Image Dataset](https://www.kaggle.com/datasets/johnbergmann/captcha-image-dataset/data)
 - **Task** : Captcha Identification (Identify the captcha and output the sequence displayed in it).
@@ -84,7 +84,7 @@ On final testing, the model gave a character-wise accuracy of 0.9415.
 The performance was further tested by randomly selecting a captcha image and predicting the sequence.
 
 - **Plotting** :
-      - ![Input](images/plot.png)
+    - ![Input](images/plot.png)
 
 <br>
 

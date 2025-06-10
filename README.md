@@ -77,11 +77,11 @@ The model used in this project is trained on 'Captcha Image Dataset' found in Ka
 
 Refer the notebook for the code and visualisation : [ResNet.ipynb](ResNet.ipynb)
 
-On training, the model gave a character accuracy of 0.99.
-On validation, the character accuracy is 0.9194
-On final testing, the model gave a character-wise accuracy of 0.9415.
+- On training, the model gave a character accuracy of 0.99.
+- On validation, the character accuracy is 0.9194.
+- On final testing, the model gave a character-wise accuracy of 0.9415.
 
-The performance was further tested by randomly selecting a captcha image and predicting the sequence.
+- The performance was further tested by randomly selecting a captcha image and predicting the sequence.
 
 - **Plotting** :
     - ![Input](images/plot.png)

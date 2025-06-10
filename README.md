@@ -1,4 +1,4 @@
-![Screenshot from 2025-06-10 20-08-13](https://github.com/user-attachments/assets/12cf04b3-bab3-431a-9093-48b55cea1326)# ResNet-For-Captcha-Identification
+# ResNet-For-Captcha-Identification
 Includes a ResNet50 implmentation for captcha recognition.
 
 <br>

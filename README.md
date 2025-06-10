@@ -44,15 +44,16 @@ To run this project, you need to have Python installed. We recommend using a vir
     python3 main.py
     ```
 2. The following are the files and their purpose :
-    - dataset.py : This file preprocesses a CAPTCHA image dataset by loading, resizing, and normalizing grayscale images, encoding their labels into character indices, splitting the data into train/test sets, and wrapping it in a PyTorch Dataset class for model training.
-    - model_save.py : This script saves the trained CAPTCHA recognition model to disk using torch.save and provides a downloadable link for the saved model checkpoint.
-    - main.py : This Python script trains, evaluates, and visualizes a deep learning model for character recognition using a custom dataset.
-    - Resnet_block.py : This code defines a bottleneck residual block (Resblock) used in deep ResNet architectures, which enables efficient training of deep convolutional neural networks by allowing identity shortcuts for gradient flow.
-    - Resnet_model_complete.py : This code defines the ResNetCaptcha model—a deep ResNet-based convolutional neural network tailored for multi-character CAPTCHA recognition, where the model predicts each character in the CAPTCHA sequence using a separate classifier head.
-    - test.py : This file defines a test function that evaluates a CAPTCHA-solving model's character-level accuracy by comparing predicted characters against ground truth labels on a test dataset.
-    - 
-4.
-5. **Download trained model**:
+   <br>
+    - **dataset.py** : This file preprocesses a CAPTCHA image dataset by loading, resizing, and normalizing grayscale images, encoding their labels into character indices, splitting the data into train/test sets, and wrapping it in a PyTorch Dataset class for model training.
+    - **model_save.py** : This script saves the trained CAPTCHA recognition model to disk using torch.save and provides a downloadable link for the saved model checkpoint.
+    - **main.py** : This Python script trains, evaluates, and visualizes a deep learning model for character recognition using a custom dataset.
+    - **Resnet_block.py** : This code defines a bottleneck residual block (Resblock) used in deep ResNet architectures, which enables efficient training of deep convolutional neural networks by allowing identity shortcuts for gradient flow.
+    - **Resnet_model_complete.py** : This code defines the ResNetCaptcha model—a deep ResNet-based convolutional neural network tailored for multi-character CAPTCHA recognition, where the model predicts each character in the CAPTCHA sequence using a separate classifier head.
+    - **test.py** : This file defines a test function that evaluates a CAPTCHA-solving model's character-level accuracy by comparing predicted characters against ground truth labels on a test dataset.
+    - **train.py** :
+    - **utils.py** :
+3. **Download trained model**:
     [Click here to download resnet_captcha_model.pth](https://www.kaggle.com/models/souri008/resnet50-captcha-identification)
 
 

@@ -92,8 +92,8 @@ The performance was further tested by randomly selecting a captcha image and pre
 The project implements a ResNet50 deep learning model for CAPTCHA recognition. The model is designed to detect fixed-length (6 characters long) alphanumeric sequences from grayscale images. A custom ResNet architecture is used that uses bottleneck residual blocks to extract features. It predicts a seperate classification for each character in the sequence. The final layer is composed of multiple parallel classifiers, each working for classifying one character, predicting among 36 posssible classes (a-z, 0-9). The model is trained using label-smoothed cross-entropy loss and evaluated based on exact match accuracy, which measures whether the entire CAPTCHA is correctly predicted.
 
 - **Trial Prediction**:
-  Following is the result of predicitng a random cache.
-  ![Input](images/predict.png)
+  - Following is the result of predicitng a random cache.
+  - ![Input](images/predict.png)
 
 
 <br>

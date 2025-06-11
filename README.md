@@ -46,12 +46,19 @@ To run this project, you need to have Python installed. We recommend using a vir
 2. The following are the files and their purpose :
    
     - **dataset.py** : This file preprocesses a CAPTCHA image dataset by loading, resizing, and normalizing grayscale images, encoding their labels into character indices, splitting the data into train/test sets, and wrapping it in a PyTorch Dataset class for model training.
+      
     - **model_save.py** : This script saves the trained CAPTCHA recognition model to disk using torch.save and provides a downloadable link for the saved model checkpoint.
+      
     - **main.py** : This Python script trains, evaluates, and visualizes a deep learning model for character recognition using a custom dataset.
+      
     - **Resnet_block.py** : This code defines a bottleneck residual block (Resblock) used in deep ResNet architectures, which enables efficient training of deep convolutional neural networks by allowing identity shortcuts for gradient flow.
+      
     - **Resnet_model_complete.py** : This code defines the ResNetCaptcha model—a deep ResNet-based convolutional neural network tailored for multi-character CAPTCHA recognition, where the model predicts each character in the CAPTCHA sequence using a separate classifier head.
+      
     - **test.py** : This file defines a test function that evaluates a CAPTCHA-solving model's character-level accuracy by comparing predicted characters against ground truth labels on a test dataset.
+      
     - **train.py** : This file defines a training function that trains a ResNet-based CAPTCHA solver for 12 epochs using train/validation splits, tracking both loss and character-level accuracy throughout training.
+      
     - **utils.py** : This file provides utility functions for visualizing training results (plotting loss and accuracy curves) and testing model predictions on random CAPTCHA samples by decoding character indices back to readable strings.
       
 4. **Download trained model**:
